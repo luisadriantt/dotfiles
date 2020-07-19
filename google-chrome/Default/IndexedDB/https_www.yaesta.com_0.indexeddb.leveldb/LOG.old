@@ -1,0 +1,5 @@
+2020/06/30-14:51:59.152 d6d00 Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/https_www.yaesta.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/30-14:53:34.395 d1b Level-0 table #5: started
+2020/06/30-14:53:34.399 d1b Level-0 table #5: 5965 bytes OK
+2020/06/30-14:53:34.404 d1b Delete type=0 #3
+2020/06/30-14:53:34.404 d1b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

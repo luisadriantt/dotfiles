@@ -1,0 +1,14 @@
+{
+   "IpMxtzD8anoGfG1vKS76q3zuqC9JoecgPeAzxgYw4+g=": {
+      "expiry": 1626571697.123427,
+      "mode": "force-https",
+      "sts_include_subdomains": true,
+      "sts_observed": 1595035697.123433
+   },
+   "lEFUAa+Ub5/pSAZib2UY4b4mVUd8eGYovWoSL2BHXb8=": {
+      "expiry": 1626571693.862005,
+      "mode": "force-https",
+      "sts_include_subdomains": true,
+      "sts_observed": 1595035693.862011
+   }
+}

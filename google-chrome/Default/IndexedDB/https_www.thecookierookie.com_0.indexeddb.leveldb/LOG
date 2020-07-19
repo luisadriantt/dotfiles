@@ -1,0 +1,5 @@
+2020/06/25-19:06:27.971 626c8 Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/https_www.thecookierookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/25-19:09:26.915 6748 Level-0 table #5: started
+2020/06/25-19:09:26.919 6748 Level-0 table #5: 2915 bytes OK
+2020/06/25-19:09:26.923 6748 Delete type=0 #3
+2020/06/25-19:09:26.923 6748 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

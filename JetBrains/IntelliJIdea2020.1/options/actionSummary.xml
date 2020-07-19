@@ -1,0 +1,240 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$Copy">
+        <ActionSummary times="2" last="1594858073156" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="34" last="1594921172072" />
+      </entry>
+      <entry key="Annotate">
+        <ActionSummary times="1" last="1593554358654" />
+      </entry>
+      <entry key="ChangesView.Revert">
+        <ActionSummary times="5" last="1594914756641" />
+      </entry>
+      <entry key="CheckinFiles">
+        <ActionSummary times="1" last="1594869612327" />
+      </entry>
+      <entry key="CodeCompletion">
+        <ActionSummary times="5" last="1594923909439" />
+      </entry>
+      <entry key="CommentByLineComment">
+        <ActionSummary times="20" last="1594866060224" />
+      </entry>
+      <entry key="CompileProject">
+        <ActionSummary times="2" last="1593804653227" />
+      </entry>
+      <entry key="ConsoleView.ClearAll">
+        <ActionSummary times="7" last="1594921932337" />
+      </entry>
+      <entry key="Debug">
+        <ActionSummary times="8" last="1594866088890" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="219" last="1594921270679" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="2" last="1594861940989" />
+      </entry>
+      <entry key="EditorChooseLookupItemReplace">
+        <ActionSummary times="1" last="1594861860140" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="41" last="1594923812261" />
+      </entry>
+      <entry key="EditorCut">
+        <ActionSummary times="10" last="1594921220889" />
+      </entry>
+      <entry key="EditorDelete">
+        <ActionSummary times="2" last="1594857282468" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="17" last="1594923931584" />
+      </entry>
+      <entry key="EditorDuplicate">
+        <ActionSummary times="5" last="1594921042627" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="20" last="1594921268937" />
+      </entry>
+      <entry key="EditorEscape">
+        <ActionSummary times="2" last="1594866980237" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="19" last="1594866073404" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="48" last="1594921269256" />
+      </entry>
+      <entry key="EditorPasteFromX11">
+        <ActionSummary times="6" last="1594859762904" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="45" last="1594923909053" />
+      </entry>
+      <entry key="EditorSelectWord">
+        <ActionSummary times="1" last="1594847296788" />
+      </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="6" last="1594866081373" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="2" last="1594923913008" />
+      </entry>
+      <entry key="ExpandRegion">
+        <ActionSummary times="4" last="1594858047597" />
+      </entry>
+      <entry key="ExternalSystem.ProjectRefreshAction">
+        <ActionSummary times="6" last="1594920053320" />
+      </entry>
+      <entry key="Find">
+        <ActionSummary times="16" last="1594923862689" />
+      </entry>
+      <entry key="FindInPath">
+        <ActionSummary times="12" last="1594862408173" />
+      </entry>
+      <entry key="Git.CompareWithBranch">
+        <ActionSummary times="7" last="1594920092956" />
+      </entry>
+      <entry key="Git.Pull">
+        <ActionSummary times="2" last="1594914774947" />
+      </entry>
+      <entry key="GotoDeclaration">
+        <ActionSummary times="6" last="1594923847865" />
+      </entry>
+      <entry key="GotoLine">
+        <ActionSummary times="8" last="1594863276653" />
+      </entry>
+      <entry key="HideAllWindows">
+        <ActionSummary times="3" last="1594923762385" />
+      </entry>
+      <entry key="Maven.DownloadSelectedSources">
+        <ActionSummary times="3" last="1592943179516" />
+      </entry>
+      <entry key="Maven.Reimport">
+        <ActionSummary times="4" last="1593794592088" />
+      </entry>
+      <entry key="Resume">
+        <ActionSummary times="2" last="1594860581918" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="102" last="1594921313443" />
+      </entry>
+      <entry key="RunAnything">
+        <ActionSummary times="2" last="1592930945591" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="9" last="1594866851404" />
+      </entry>
+      <entry key="SearchEverywhere">
+        <ActionSummary times="19" last="1594866922889" />
+      </entry>
+      <entry key="ShowProjectStructureSettings">
+        <ActionSummary times="14" last="1593794760178" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="9" last="1594911657755" />
+      </entry>
+      <entry key="Stop">
+        <ActionSummary times="30" last="1594926356354" />
+      </entry>
+      <entry key="ToggleLineBreakpoint">
+        <ActionSummary times="3" last="1594924075767" />
+      </entry>
+      <entry key="Vcs.Push">
+        <ActionSummary times="2" last="1594869923174" />
+      </entry>
+      <entry key="Vcs.ShowTabbedFileHistory">
+        <ActionSummary times="1" last="1594924084057" />
+      </entry>
+      <entry key="Vcs.VcsClone">
+        <ActionSummary times="1" last="1592929732931" />
+      </entry>
+      <entry key="com.intellij.diff.tools.util.side.ThreesideTextDiffViewer$MyToggleAutoScrollAction">
+        <ActionSummary times="4" last="1594869824575" />
+      </entry>
+      <entry key="com.intellij.find.SearchReplaceComponent$12">
+        <ActionSummary times="1" last="1594862959061" />
+      </entry>
+      <entry key="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+        <ActionSummary times="34" last="1594862944670" />
+      </entry>
+      <entry key="com.intellij.find.impl.FindPopupPanel$MyEnterAction">
+        <ActionSummary times="7" last="1594859848100" />
+      </entry>
+      <entry key="com.intellij.framework.detection.impl.FrameworkDetectionManager$3">
+        <ActionSummary times="2" last="1593805525712" />
+      </entry>
+      <entry key="com.intellij.ide.errorTreeView.NewErrorTreeViewPanel$RerunAction">
+        <ActionSummary times="2" last="1592942890529" />
+      </entry>
+      <entry key="com.intellij.notification.NotificationAction$1">
+        <ActionSummary times="3" last="1594869892262" />
+      </entry>
+      <entry key="com.intellij.openapi.fileEditor.impl.EditorTabbedContainer$CloseTab">
+        <ActionSummary times="11" last="1594866950617" />
+      </entry>
+      <entry key="com.intellij.openapi.keymap.impl.ui.KeymapPanel$13">
+        <ActionSummary times="1" last="1594847352073" />
+      </entry>
+      <entry key="com.intellij.openapi.keymap.impl.ui.KeymapPanel$16">
+        <ActionSummary times="1" last="1594847348274" />
+      </entry>
+      <entry key="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+        <ActionSummary times="25" last="1594920098999" />
+      </entry>
+      <entry key="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+        <ActionSummary times="3" last="1594847323464" />
+      </entry>
+      <entry key="com.intellij.openapi.vcs.actions.ShowDiffFromAnnotation">
+        <ActionSummary times="1" last="1593554363213" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="2" last="1593794997253" />
+      </entry>
+      <entry key="com.intellij.ui.AnActionButton$AnActionButtonWrapper">
+        <ActionSummary times="10" last="1592942635418" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$AddButton">
+        <ActionSummary times="12" last="1594911671865" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$RemoveButton">
+        <ActionSummary times="4" last="1594911673857" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$12">
+        <ActionSummary times="24" last="1594852013489" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$13">
+        <ActionSummary times="7" last="1594852016199" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$6">
+        <ActionSummary times="15" last="1594866906043" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$7">
+        <ActionSummary times="2" last="1594866906525" />
+      </entry>
+      <entry key="com.intellij.vcs.log.history.FileHistoryPanel$4">
+        <ActionSummary times="3" last="1594924140006" />
+      </entry>
+      <entry key="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+        <ActionSummary times="1" last="1594860416715" />
+      </entry>
+      <entry key="editRunConfigurations">
+        <ActionSummary times="28" last="1594911708398" />
+      </entry>
+      <entry key="git4idea.ui.branch.GitBranchPopupActions$GitNewBranchAction">
+        <ActionSummary times="1" last="1593805537496" />
+      </entry>
+      <entry key="git4idea.ui.branch.GitBranchPopupActions$LocalBranchActions$CheckoutAction">
+        <ActionSummary times="1" last="1594920046074" />
+      </entry>
+      <entry key="git4idea.ui.branch.GitBranchPopupActions$RemoteBranchActions$CheckoutRemoteBranchAction">
+        <ActionSummary times="4" last="1594914766779" />
+      </entry>
+      <entry key="org.jetbrains.plugins.terminal.TerminalView$1">
+        <ActionSummary times="4" last="1594858373717" />
+      </entry>
+    </data>
+  </component>
+</application>

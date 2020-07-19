@@ -1,0 +1,15 @@
+2020/06/30-14:53:34.458 d6d02 Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/https_www.yaesta.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/30-14:53:34.458 d6d02 Recovering log #4
+2020/06/30-14:53:34.459 d6d02 Reusing old log /home/blade/.config/google-chrome/Default/IndexedDB/https_www.yaesta.com_0.indexeddb.leveldb/000004.log 
+2020/06/30-14:53:52.549 d1b Level-0 table #8: started
+2020/06/30-14:53:52.557 d1b Level-0 table #8: 3340 bytes OK
+2020/06/30-14:53:52.562 d1b Delete type=0 #4
+2020/06/30-14:53:52.562 d1b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/30-14:53:52.563 d1b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 434 : 1
+2020/06/30-14:53:52.563 d1b Compacting 1@1 + 1@2 files
+2020/06/30-14:53:52.568 d1b Generated table #9@1: 98 keys, 2200 bytes
+2020/06/30-14:53:52.568 d1b Compacted 1@1 + 1@2 files => 2200 bytes
+2020/06/30-14:53:52.573 d1b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/30-14:53:52.573 d1b Delete type=2 #8
+2020/06/30-14:53:52.573 d1b Delete type=2 #5
+2020/06/30-14:53:52.574 d1b Manual compaction at level-1 from '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 434 : 1 .. (end); will stop at (end)

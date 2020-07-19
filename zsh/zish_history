@@ -1,0 +1,10 @@
+ls
+zsh
+cd siim_adm
+nvim siim-adm-default.conf
+bash
+ls
+cd siim_adm
+cd
+pwd
+zsh

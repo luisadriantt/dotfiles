@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Time Doctor - logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="60" y="82" width="820" height="660"></rect>
+        <filter x="-1.5%" y="-1.8%" width="103.9%" height="107.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="4" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.184632455   0 0 0 0 0.537203557   0 0 0 0 0.88977466  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M0,29 L565.007366,29 C567.764722,29 570,31.243744 570,34.008181 L570,616 L0,616 L0,29 Z" id="path-4"></path>
+        <rect id="path-5" x="0" y="0" width="162" height="160" rx="4"></rect>
+        <filter x="-6.2%" y="-6.2%" width="124.7%" height="125.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.250980392   0 0 0 0 0.356862745  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Drag-and-Drop_Hover_Active_Pencil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-610.000000, -354.000000)">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="basis-copy-3">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+            <use fill="#F4F8F9" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <g id="Group-2" mask="url(#mask-2)">
+            <g transform="translate(294.000000, 134.000000)" id="task_basis">
+                <g>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <path stroke="#E7EEF0" stroke-width="1" d="M0.5,29.5 L0.5,615.5 L569.5,615.5 L569.5,34.008181 C569.5,31.5189961 567.487689,29.5 565.007366,29.5 L0.5,29.5 Z"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Drop" mask="url(#mask-2)">
+            <g transform="translate(602.000000, 278.000000)" id="select">
+                <g transform="translate(0.000000, 24.000000)">
+                    <g id="Rectangle-20-Copy-3">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FCFCFD" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <rect stroke="#E7EEF0" stroke-width="1" x="0.5" y="0.5" width="161" height="159" rx="4"></rect>
+                    </g>
+                    <rect id="Rectangle-22" fill="#6A85A0" x="1" y="40" width="160" height="40"></rect>
+                </g>
+            </g>
+        </g>
+        <g id="Time-Doctor---logo" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="nonzero">
+            <g transform="translate(610.000000, 354.000000)">
+                <path d="M14.336414,1.80199625 C13.8124877,2.15731355 13.3280373,2.51408623 12.970431,2.81877287 C11.8612375,2.05303468 10.5333545,1.59223648 9.1022501,1.5521128 L9.1022501,2.68823715 L8.54292968,2.68823715 L8.54292968,1.55728429 C4.78601808,1.74238822 1.77894922,4.83369505 1.63636364,8.67344224 L2.67102766,8.67344224 L2.67102766,9.24355522 L1.63636364,9.24355522 C1.77894922,13.0831241 4.78619305,16.1747876 8.54292968,16.3595348 L8.54292968,15.2287603 L9.1022501,15.2287603 L9.1022501,16.3636364 C12.9300171,16.2562832 16.0175637,13.1350174 16.1622487,9.24355522 L14.9741521,9.24355522 L14.9741521,8.67344224 L16.1636483,8.67344224 C16.1080137,7.18583445 15.6181491,5.81342617 14.8250933,4.6756969 C15.0845342,4.34462334 15.4652675,3.83444637 15.86732,3.27084778 C17.134715,4.81314813 17.8954538,6.78672782 17.8954538,8.9377864 C17.8954538,13.8739806 13.889411,17.8755728 8.9477269,17.8755728 C4.00604275,17.8755728 0,13.8739806 0,8.9377864 C0,4.00159223 4.00604275,0 8.9477269,0 C10.9710603,0 12.8375401,0.670838176 14.336414,1.80199625 Z" id="Combined-Shape"></path>
+                <path d="M8.48247824,8.44037951 L5.83266064,6.33944749 L4.90909091,7.26199118 L9.0829123,11.925564 C10.9515708,8.39686496 14.2263157,4.08070962 16.8079021,1.22727273 C15.3050675,1.93503972 10.7089129,5.97560281 8.48247824,8.44037951" id="Fill-4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

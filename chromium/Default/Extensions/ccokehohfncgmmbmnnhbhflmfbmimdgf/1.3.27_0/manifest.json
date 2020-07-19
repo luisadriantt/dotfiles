@@ -1,0 +1,227 @@
+{
+   "background": {
+      "scripts": [ "./background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "./assets/logo/logo-inactive.png",
+         "18": "./assets/logo/logo-inactive-18.png",
+         "32": "./assets/logo/logo-inactive-32.png"
+      },
+      "default_popup": "./index.html",
+      "default_title": "Time Doctor",
+      "setBadgeText": {
+         "text": "TD"
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "./contents/atlassian.css" ],
+      "js": [ "./contents/atlassian.js" ],
+      "matches": [ "*://*.jira.com/*", "*://*.atlassian.net/*", "*://*.atlassian.com/*", "*://jira.pdlx.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/google-mail.css" ],
+      "js": [ "./contents/google-mail.js" ],
+      "matches": [ "*://mail.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/google-docs.css" ],
+      "js": [ "./contents/google-docs.js" ],
+      "matches": [ "*://docs.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "./contents/google-calendar.css" ],
+      "js": [ "./contents/google-calendar.js" ],
+      "matches": [ "*://calendar.google.com/*", "*://mail.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/google-inbox.css" ],
+      "js": [ "./contents/google-inbox.js" ],
+      "matches": [ "*://inbox.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/google-keep.css" ],
+      "js": [ "./contents/google-keep.js" ],
+      "matches": [ "*://keep.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/basecamp.css" ],
+      "js": [ "./contents/basecamp.js" ],
+      "matches": [ "*://*.basecamp.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/trello.css" ],
+      "js": [ "./contents/trello.js" ],
+      "matches": [ "*://*.trello.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/asana.css" ],
+      "js": [ "./contents/asana.js" ],
+      "matches": [ "*://*.asana.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/bitbucket.css" ],
+      "js": [ "./contents/bitbucket.js" ],
+      "matches": [ "*://*.bitbucket.org/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/breeze.css" ],
+      "js": [ "./contents/breeze.js" ],
+      "matches": [ "*://app.breeze.pm/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/github.css" ],
+      "js": [ "./contents/github.js" ],
+      "matches": [ "*://github.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/helpscout.css" ],
+      "js": [ "./contents/helpscout.js" ],
+      "matches": [ "*://secure.helpscout.net/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/redbooth.css" ],
+      "js": [ "./contents/redbooth.js" ],
+      "matches": [ "*://*.redbooth.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/salesforce.css" ],
+      "js": [ "./contents/salesforce.js" ],
+      "matches": [ "*://*.salesforce.com/*", "*://*.my.salesforce.com/*", "*://*.force.com/*", "*://*.lightning.force.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/todoist.css" ],
+      "js": [ "./contents/todoist.js" ],
+      "matches": [ "*://*.todoist.com/app*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/trello.css" ],
+      "js": [ "./contents/trello.js" ],
+      "matches": [ "*://*.trello.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/clickup.css" ],
+      "js": [ "./contents/clickup.js" ],
+      "matches": [ "*://*.clickup.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "./contents/wordpress.css" ],
+      "js": [ "./contents/wordpress.js" ],
+      "matches": [ "*://wordpress.com/*", "*://*.wordpress.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/wunderlist.css" ],
+      "js": [ "./contents/wunderlist.js" ],
+      "matches": [ "*://*.wunderlist.com/*", "*://wunderlist.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/zendesk.css" ],
+      "js": [ "./contents/zendesk.js" ],
+      "matches": [ "*://*.zendesk.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/podio.css" ],
+      "js": [ "./contents/podio.js" ],
+      "matches": [ "*://*.podio.com/*", "*://podio.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/zoho-books.css" ],
+      "js": [ "./contents/zoho-books.js" ],
+      "matches": [ "*://books.zoho.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/zoho-books.css" ],
+      "js": [ "./contents/zoho-desk.js" ],
+      "matches": [ "*://desk.zoho.com/*", "*://desk.zoho.eu/*", "*://desk.zoho.in/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "./contents/zoho-books.css" ],
+      "js": [ "./contents/zoho-projects.js" ],
+      "matches": [ "*://projects.zoho.com/*", "*://zoho.com/*", "*://crmplus.zoho.com/*", "*://crmplus.zoho.eu/*", "*://projects.zoho.in/*", "*://projects.zoho.eu/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/visualstudio.css" ],
+      "js": [ "./contents/visualstudio.js" ],
+      "matches": [ "*://*.visualstudio.com/*", "*://visualstudio.com/*", "*://dev.azure.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/redmine.css" ],
+      "js": [ "./contents/redmine.js" ],
+      "matches": [ "*://*.redmine.org/issues/*", "*://redmine.org/issues/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/redmine.css" ],
+      "js": [ "./contents/redmine.js" ],
+      "matches": [ "*://*.allbugs.info/issues/*", "*://allbugs.info/issues/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/intercom.css" ],
+      "js": [ "./contents/intercom.js" ],
+      "matches": [ "*://app.intercom.io/*", "*://app.intercom.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/teamwork.css" ],
+      "js": [ "./contents/teamwork.js" ],
+      "matches": [ "*://*.teamwork.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/evernote.css" ],
+      "js": [ "./contents/evernote.js" ],
+      "matches": [ "*://evernote.com/client/*", "*://*.evernote.com/client/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/freshdesk.css" ],
+      "js": [ "./contents/freshdesk.js" ],
+      "matches": [ "*://*.freshdesk.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/monday.css" ],
+      "js": [ "./contents/monday.js" ],
+      "matches": [ "*://*.monday.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/freshservice.css" ],
+      "js": [ "./contents/freshservice.js" ],
+      "matches": [ "*://*.freshservice.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/wrike.css" ],
+      "js": [ "./contents/wrike.js" ],
+      "matches": [ "*://*.wrike.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/freshservice.css" ],
+      "js": [ "./contents/freshservice.js" ],
+      "matches": [ "*://*.freshservice.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/wrike.css" ],
+      "js": [ "./contents/wrike.js" ],
+      "matches": [ "*://*.wrike.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./contents/processstreet.css" ],
+      "js": [ "./contents/processstreet.js" ],
+      "matches": [ "*://app.process.st/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.gstatic.com/ https://www.googleapis.com https://www.google-analytics.com; object-src 'self'",
+   "description": "It's easy to track time now by using Time Doctor chrome extension",
+   "differential_fingerprint": "1.b6277a35699fb15ab9658e06aaba4b8cb76022a832190feabf21bd11c46f8e71",
+   "icons": {
+      "128": "./assets/logo/logo.png",
+      "16": "./assets/logo/logo-16.png",
+      "48": "./assets/logo/logo-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA94XVvMV3RRDGU5zcRPOYRiMxsWuvyQL0sQnAGs9dZT3FTZi6VSQJH2owDJtdp1BeDZofQ5H/bKzoXoTfllolsTSlcs44Oic+MSNQNpBShN/+BTbR31QlbQxqVkie2vyV8fXgFzDKYD921W+tNRc5PKB/EKuOAWHLSVo0K1+1mUSYkQIBfIvElHIgTSz+8XsxCAK/8klIKA1klhFpSBtMQm9xaob5+7jKSbTfTxmO/uj6fe1+l4CMMcdu0rj83GWMxpMoDFlBYhAHp6SRwCrL3tQF/KYp6IUDoUUxRnw3U2/s83zIiSB/Ybecy8Aifze5yhmwnuUKIbSDbvDHBHrNSQIDAQAB",
+   "manifest_version": 2,
+   "name": "Time Doctor Chrome Extension",
+   "permissions": [ "*://*.jira.com/*", "*://jira.pdlx.ru/*", "*://mail.google.com/*", "*://*.atlassian.net/*", "*://docs.google.com/*", "*://calendar.google.com/*", "*://inbox.google.com/*", "*://keep.google.com/*", "*://*.basecamp.com/*", "*://*.bitbucket.org/*", "*://app.breeze.pm/*", "*://*.trello.com/*", "*://*.asana.com/*", "*://*.todoist.com/*", "*://wordpress.com/*", "*://*.wunderlist.com/*", "*://*.redbooth.com/*", "*://*.salesforce.com/*", "*://*.my.salesforce.com/*", "*://*.force.com/*", "*://*.lightning.force.com/*", "*://secure.helpscout.net/*", "*://*.zendesk.com/*", "*://books.zoho.com/*", "*://desk.zoho.com/*", "*://desk.zoho.eu/*", "*://desk.zoho.in/*", "*://projects.zoho.com/*", "*://projects.zoho.in/*", "*://projects.zoho.eu/*", "*://crmplus.zoho.com/*", "*://crmplus.zoho.eu/*", "*://*.visualstudio.com/*", "*://app.clickup.com/*", "*://evernote.com/*", "*://redmine.org/*", "*://allbugs.info/*", "*://app.intercom.io/*", "*://app.intercom.com/*", "*://*.teamwork.com/*", "*://*.freshdesk.com/*", "*://*.freshservice.com/*", "*://*.monday.com/*", "*://*.wrike.com/*", "*://*app.process.st/*" ],
+   "short_name": "Time Doctor",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.27",
+   "web_accessible_resources": [ "assets/*.svg" ]
+}

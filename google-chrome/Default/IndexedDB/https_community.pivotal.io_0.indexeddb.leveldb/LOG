@@ -1,0 +1,27 @@
+2020/06/23-11:35:37.329 b60ba Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/https_community.pivotal.io_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/23-11:35:41.923 5d18 Level-0 table #5: started
+2020/06/23-11:35:41.945 5d18 Level-0 table #5: 1409868 bytes OK
+2020/06/23-11:35:41.955 5d18 Delete type=0 #3
+2020/06/23-11:35:42.082 5d18 Level-0 table #7: started
+2020/06/23-11:35:42.090 5d18 Level-0 table #7: 436658 bytes OK
+2020/06/23-11:35:42.095 5d18 Delete type=0 #4
+2020/06/23-11:35:42.095 5d18 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/06/23-11:35:44.832 5d18 Compacting 1@1 + 1@2 files
+2020/06/23-11:35:44.875 5d18 Generated table #8@1: 1824 keys, 1526557 bytes
+2020/06/23-11:35:44.875 5d18 Compacted 1@1 + 1@2 files => 1526557 bytes
+2020/06/23-11:35:44.880 5d18 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/23-11:35:44.880 5d18 Delete type=2 #5
+2020/06/23-11:35:44.880 5d18 Delete type=2 #7
+2020/06/23-11:36:34.964 5d18 Level-0 table #10: started
+2020/06/23-11:36:34.997 5d18 Level-0 table #10: 1865203 bytes OK
+2020/06/23-11:36:35.001 5d18 Delete type=0 #6
+2020/06/23-11:36:35.002 5d18 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/23-11:36:35.002 5d18 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x1f\x03\x00\xf0\xc2\xe7\xb4hwB\x00\x01~\x000\x000\x00D\x00U\x000\x000\x000\x000\x000\x000\x000\x00Y\x00Q\x00a\x00z\x000\x00D\x00B\x000\x00P\x000\x000\x000\x000\x000\x000\x00P\x00D\x00K\x00g\x000\x000\x005\x000\x00P\x000\x000\x000\x000\x000\x007\x00Y\x00i\x00u\x00y\x00e\x00n\x00_\x00U\x00S\x006\x00c\x004\x006\x001\x003\x00f\x005\x00-\x00f\x003\x009\x00c\x00-\x004\x00f\x004\x000\x00-\x00b\x003\x00c\x00e\x00-\x00b\x00b\x002\x006\x002\x002\x00b\x004\x00e\x000\x005\x00b\x00B\x00L\x00M\x001\x005\x007\x003\x007\x005\x008\x009\x001\x007\x000\x000\x000\x00-\x000\x005\x009\x004\x009\x004\x008\x004\x000\x006\x004\x008\x00.\x000\x00:\x00_\x00r\x00e\x00c\x00o\x00r\x00d\x00s' @ 11808 : 1
+2020/06/23-11:36:35.002 5d18 Compacting 1@1 + 1@2 files
+2020/06/23-11:36:35.036 5d18 Generated table #11@1: 890 keys, 2131445 bytes
+2020/06/23-11:36:35.046 5d18 Generated table #12@1: 1991 keys, 365088 bytes
+2020/06/23-11:36:35.046 5d18 Compacted 1@1 + 1@2 files => 2496533 bytes
+2020/06/23-11:36:35.050 5d18 compacted to: files[ 0 0 2 0 0 0 0 ]
+2020/06/23-11:36:35.051 5d18 Delete type=2 #8
+2020/06/23-11:36:35.051 5d18 Delete type=2 #10
+2020/06/23-11:36:35.051 5d18 Manual compaction at level-1 from '\x00\x08\x01\x1f\x03\x00\xf0\xc2\xe7\xb4hwB\x00\x01~\x000\x000\x00D\x00U\x000\x000\x000\x000\x000\x000\x000\x00Y\x00Q\x00a\x00z\x000\x00D\x00B\x000\x00P\x000\x000\x000\x000\x000\x000\x00P\x00D\x00K\x00g\x000\x000\x005\x000\x00P\x000\x000\x000\x000\x000\x007\x00Y\x00i\x00u\x00y\x00e\x00n\x00_\x00U\x00S\x006\x00c\x004\x006\x001\x003\x00f\x005\x00-\x00f\x003\x009\x00c\x00-\x004\x00f\x004\x000\x00-\x00b\x003\x00c\x00e\x00-\x00b\x00b\x002\x006\x002\x002\x00b\x004\x00e\x000\x005\x00b\x00B\x00L\x00M\x001\x005\x007\x003\x007\x005\x008\x009\x001\x007\x000\x000\x000\x00-\x000\x005\x009\x004\x009\x004\x008\x004\x000\x006\x004\x008\x00.\x000\x00:\x00_\x00r\x00e\x00c\x00o\x00r\x00d\x00s' @ 11808 : 1 .. (end); will stop at (end)

@@ -1,0 +1,38 @@
+# Main Colors
+unrecognized_file: green
+recognized_file:   green
+dir:               green
+
+# Link
+dead_link: green
+link:      green
+
+# special files
+socket:    green
+blockdev:  green
+chardev:   green
+
+# Access Modes
+write:     green
+read:      green
+exec:      green
+no_access: green
+
+# Age
+day_old:     green
+hour_old:    green
+no_modifier: green
+
+# File Size
+file_large:  green
+file_medium: green
+file_small:  green
+
+# Random
+report: green
+user:   green
+tree:   green
+empty:  green
+error:  green
+normal: green
+

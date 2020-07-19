@@ -1,0 +1,30 @@
+2020/07/15-13:59:47.282 6fb Reusing MANIFEST /home/blade/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/07/15-13:59:47.283 6fb Recovering log #1278
+2020/07/15-13:59:47.284 6fb Reusing old log /home/blade/.config/google-chrome/Default/Sync Data/LevelDB/001278.log 
+2020/07/15-17:36:48.726 1484 Level-0 table #1283: started
+2020/07/15-17:36:48.738 1484 Level-0 table #1283: 102507 bytes OK
+2020/07/15-17:36:48.744 1484 Delete type=0 #1278
+2020/07/15-21:05:37.854 1484 Level-0 table #1285: started
+2020/07/15-21:05:37.863 1484 Level-0 table #1285: 88909 bytes OK
+2020/07/15-21:05:37.868 1484 Delete type=0 #1282
+2020/07/15-21:43:23.845 1484 Level-0 table #1287: started
+2020/07/15-21:43:23.853 1484 Level-0 table #1287: 115308 bytes OK
+2020/07/15-21:43:23.861 1484 Delete type=0 #1284
+2020/07/15-22:08:57.650 1484 Level-0 table #1289: started
+2020/07/15-22:08:57.670 1484 Level-0 table #1289: 91320 bytes OK
+2020/07/15-22:08:57.675 1484 Delete type=0 #1286
+2020/07/15-22:08:57.675 1484 Compacting 4@0 + 1@1 files
+2020/07/15-22:08:57.681 1484 Generated table #1290@0: 174 keys, 25770 bytes
+2020/07/15-22:08:57.681 1484 Compacted 4@0 + 1@1 files => 25770 bytes
+2020/07/15-22:08:57.685 1484 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/07/15-22:08:57.686 1484 Delete type=2 #1287
+2020/07/15-22:08:57.686 1484 Delete type=2 #1283
+2020/07/15-22:08:57.686 1484 Delete type=2 #1289
+2020/07/15-22:08:57.686 1484 Delete type=2 #1280
+2020/07/15-22:08:57.686 1484 Delete type=2 #1285
+2020/07/15-22:14:06.820 1484 Level-0 table #1292: started
+2020/07/15-22:14:06.827 1484 Level-0 table #1292: 81235 bytes OK
+2020/07/15-22:14:06.832 1484 Delete type=0 #1288
+2020/07/17-14:15:49.000 1484 Level-0 table #1294: started
+2020/07/17-14:15:49.017 1484 Level-0 table #1294: 103457 bytes OK
+2020/07/17-14:15:49.022 1484 Delete type=0 #1291

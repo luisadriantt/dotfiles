@@ -1,0 +1,13 @@
+#!/bin/sh
+
+
+dunst &
+mpd &
+unclutter &
+xset r rate 450 50 &
+setxkbmap -layout $LAYOUT -option 'grp:ctrl_alt_toggle' &
+xrdb $XDG_CONFIG_CONFIG/Xresources &
+picom --experimental-backends --backend glx -b
+fehbg &
+repeater &
+exec $WM

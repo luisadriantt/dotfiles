@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="65px" viewBox="0 0 103 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>rect</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-6" y="0" width="1336" height="1330"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1336" height="1330" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="99.8605053" y="-161.835418" width="419" height="528" rx="60"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="419" height="528" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="0.308807344" width="400" height="319.021407" rx="10"></rect>
+        <rect id="path-7" x="28.2670302" y="56.8440979" width="240" height="174.189602" rx="10"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="240" height="174.189602" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Popups" transform="translate(-397.000000, -41.000000)">
+            <use id="Rectangle-2" stroke="#ECF6FF" mask="url(#mask-2)" stroke-width="2" fill="#ECF6FF" xlink:href="#path-1"></use>
+            <use id="Rectangle-3" stroke="#E3EFFA" mask="url(#mask-4)" stroke-width="160" transform="translate(309.360505, 102.164582) rotate(-31.000000) translate(-309.360505, -102.164582) " xlink:href="#path-3"></use>
+            <g id="Not_allowed" transform="translate(100.000000, 41.000000)">
+                <g id="basis">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <use id="basis-copy" fill="#FFFFFF" xlink:href="#path-5"></use>
+                    <g id="decoration" mask="url(#mask-6)">
+                        <g transform="translate(-39.000000, -218.311988)" id="rect">
+                            <g transform="translate(282.000000, 0.000000)">
+                                <use stroke="#F8FBFD" mask="url(#mask-8)" stroke-width="40" transform="translate(148.267030, 143.938899) rotate(-39.000000) translate(-148.267030, -143.938899) " xlink:href="#path-7"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <rect id="top_bar" fill="#EDF0F7" x="0" y="0.308807344" width="400" height="19.5718654" rx="9.78593272"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
