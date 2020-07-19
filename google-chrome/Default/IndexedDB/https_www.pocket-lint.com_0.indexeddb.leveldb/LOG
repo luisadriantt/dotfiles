@@ -1,5 +1,0 @@
-2020/06/22-15:42:12.317 cc8e2 Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/https_www.pocket-lint.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/22-15:42:30.292 546d5 Level-0 table #5: started
-2020/06/22-15:42:30.297 546d5 Level-0 table #5: 1155 bytes OK
-2020/06/22-15:42:30.304 546d5 Delete type=0 #3
-2020/06/22-15:42:30.304 546d5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

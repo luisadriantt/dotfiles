@@ -1,5 +1,0 @@
-2020/07/06-15:43:46.160 c2322 Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/https_www.theverge.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/06-15:44:13.922 1f645 Level-0 table #5: started
-2020/07/06-15:44:13.948 1f645 Level-0 table #5: 661087 bytes OK
-2020/07/06-15:44:13.953 1f645 Delete type=0 #3
-2020/07/06-15:44:13.954 1f645 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

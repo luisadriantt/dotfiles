@@ -1,5 +1,0 @@
-2020/06/23-11:33:42.896 b4fb1 Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/https_appuals.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/23-11:35:12.961 5d18 Level-0 table #5: started
-2020/06/23-11:35:12.968 5d18 Level-0 table #5: 6414 bytes OK
-2020/06/23-11:35:12.976 5d18 Delete type=0 #3
-2020/06/23-11:35:12.976 5d18 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

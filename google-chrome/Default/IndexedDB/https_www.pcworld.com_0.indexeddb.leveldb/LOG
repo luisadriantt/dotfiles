@@ -1,5 +1,0 @@
-2020/06/23-17:29:15.792 17d070 Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/https_www.pcworld.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/23-17:30:54.724 5d18 Level-0 table #5: started
-2020/06/23-17:30:54.737 5d18 Level-0 table #5: 616679 bytes OK
-2020/06/23-17:30:54.742 5d18 Delete type=0 #3
-2020/06/23-17:30:54.743 5d18 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

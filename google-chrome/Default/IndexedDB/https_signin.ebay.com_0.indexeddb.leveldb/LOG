@@ -1,5 +1,0 @@
-2020/06/29-14:12:35.237 122357 Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/https_signin.ebay.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/29-14:12:38.595 a59a7 Level-0 table #5: started
-2020/06/29-14:12:38.599 a59a7 Level-0 table #5: 1280 bytes OK
-2020/06/29-14:12:38.607 a59a7 Delete type=0 #3
-2020/06/29-14:12:38.607 a59a7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

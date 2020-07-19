@@ -1,5 +1,0 @@
-2020/07/08-12:21:44.753 33dee Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/http_linuxg.net_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/08-12:21:48.022 11dec Level-0 table #5: started
-2020/07/08-12:21:48.026 11dec Level-0 table #5: 1061 bytes OK
-2020/07/08-12:21:48.033 11dec Delete type=0 #3
-2020/07/08-12:21:48.033 11dec Manual compaction at level-0 from (begin) .. (end); will stop at (end)

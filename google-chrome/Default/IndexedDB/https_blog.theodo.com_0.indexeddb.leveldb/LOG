@@ -1,5 +1,0 @@
-2020/07/09-13:38:16.105 b2f1a Reusing MANIFEST /home/blade/.config/google-chrome/Default/IndexedDB/https_blog.theodo.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/09-13:38:52.894 c56 Level-0 table #5: started
-2020/07/09-13:38:52.899 c56 Level-0 table #5: 1392 bytes OK
-2020/07/09-13:38:52.903 c56 Delete type=0 #3
-2020/07/09-13:38:52.903 c56 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
