@@ -1,0 +1,97 @@
+snippet built "built value class generator"
+abstract class ${1:CLASS_NAME} implements Built<$1, $1Builder> {
+	factory $1([updates($1Builder b)]) = _$$1;
+	$1._();
+
+	$0
+
+	static Serializer<$1> get serializer => _$${1/.*/\l$0/}Serializer;
+}
+endsnippet
+
+snippet ipbuilt "import built value deps"
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
+
+part '${1:`!v expand('%:t:r')`.g.dart}';
+endsnippet
+
+snippet jsbuilt "create JsonSerializable class"
+import 'package:json_annotation/json_annotation.dart';
+
+part '${1:`!v expand('%:t:r')`.g.dart}';
+
+@JsonSerializable()
+class ${1:CLASS_NAME} {
+
+factory $1.fromJson(Map<String, dynamic> json) =>
+	_$$1FromJson(json);
+
+Map<String, dynamic> toJson() => _$$1ToJson(this);
+}
+endsnippet
+
+snippet stless "stateless widget class"
+class $1 extends StatelessWidget {
+	@override
+	Widget build(BuildContext context) {
+		return Container($0);
+	}
+}
+endsnippet
+
+snippet mtest "unit test file"
+import 'package:flutter_test/flutter_test.dart';
+
+void main() {
+	test('$1', () {
+		$0
+	});
+}
+endsnippet
+
+snippet trl "translation string"
+String get $1 {
+	return Intl.message(
+		'$2',
+		name: '$1',
+		desc: '$0',
+	);
+}
+endsnippet
+
+snippet al "app localizations"
+AppLocalizations.of(context).
+endsnippet
+
+snippet mt "main theme"
+MainTheme.of(context).
+endsnippet
+
+snippet wtest "widget test file"
+import 'package:flutter_test/flutter_test.dart';
+
+void main() {
+	testWidgets('$1', (WidgetTester tester) async {
+		$0
+	});
+}
+endsnippet
+
+snippet tw "test widget"
+testWidgets('$1', (WidgetTester tester) async {
+	$0
+});
+endsnippet
+
+snippet mock "create mockito class"
+class Mocked$1 extends Mock implements $1 {}
+endsnippet
+
+snippet ath "appTheme"
+final appTheme = Provider.of<AppTheme>(context);
+endsnippet
+
+snippet rel "remote localizations"
+final localizations = RemoteLocalizations.of(context);
+endsnippet
