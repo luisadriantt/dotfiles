@@ -16,8 +16,8 @@ c.auto_save.session = True
 
 #darkmode
 #config.set('colors.webpage.prefers_color_scheme_dark', True)
-config.set('colors.webpage.bg', 'black')
-config.set('colors.webpage.darkmode.enabled', True)
+#config.set('colors.webpage.bg', 'black')
+#config.set('colors.webpage.darkmode.enabled', True)
 
 # Minimize fingerprinting
 config.set('content.headers.accept_language', 'en-US,en;q=0.5')
