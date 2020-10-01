@@ -6,18 +6,21 @@ Custom Rofi app launcher by KatKak
 
 * {
 	background-color:	@background;
-	background-light:	@background-light;
+	background-light:	#0000001a;
 	text-color:		@foreground;
 	font:			@font;
 }
-/*
-* {
-	background-color:	@background;
-	background-light:	@background-light;
-	text-color:		@foreground;
-	font:			@font;
-}*/
 
+window {
+  transparency: "real";
+}
+
+element selected {
+  background-color: @red;
+  border-color: #ffffff0A;
+  text-color: @foreground;
+  transition: 20;
+}
 cofiguration {
 	show-icons:		true;
 	icon-theme:		"Papirus";
@@ -32,8 +35,8 @@ cofiguration {
 }
 
 window {
-	height:			40%;
-	width:			500;
+	height:			30%;
+	width:			400;
 }
 
 /* vim:ft=css

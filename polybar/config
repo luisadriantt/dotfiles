@@ -164,7 +164,7 @@ label-unmounted-foreground = ${colors.foreground-alt}
 
 [module/bspwm]
 type = internal/bspwm
-
+pin-workspaces = true
 ws-icon-0 = WEB;
 ws-icon-1 = TERM;
 ws-icon-2 = DB;

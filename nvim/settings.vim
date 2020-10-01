@@ -12,8 +12,6 @@ filetype on
 
 let g:rehash256 = 1
 let &showbreak = '↳ '               " arrow when text breaks into next line
-let g:python3_host_prog = '/home/blade/.pyenv/versions/tryton/bin/python'
-let g:python_host_prog = '/usr/bin/python'
 
 set hlsearch
 set ic
@@ -89,7 +87,8 @@ let g:lightline = {
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Uncomment to autostart the NERDTree
 " autocmd vimenter * NERDTree
-"let NERDTreeShowLineNumbers=1
+let NERDTreeShowLineNumbers=1
+autocmd FileType nerdtree setlocal relativenumber
 let NERDTreeShowHidden=1
 let NERDTreeMinimalUI = 1
 let g:NERDTreeWinSize=38
@@ -131,7 +130,7 @@ let b:ale_linters = {'python': ['flake8']}
 let b:ale_fixers = {'*': [], 'python': ['black', 'isort']} 
 
 let g:ale_python_flake8_options = '--ignore=E129,E501,E302,E265,E241,E305,E402,W503'
-let g:ale_python_pylint_options = '-j 0 --max-line-length=85'
+" let g:ale_python_pylint_options = '-j 0 --max-line-length=85'
 let g:ale_list_window_size = 4
 let g:ale_sign_column_always = 0
 let g:ale_open_list = 0

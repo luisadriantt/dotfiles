@@ -60,8 +60,8 @@ mouse:
 
 colors:
   primary:
-    background: '0x0a1010'
-    foreground: '0xb6bcc4'
+    background: '#1e2022'
+    foreground: '#d7e6f4'
   cursor:
     text:       '0x0a1010'
     cursor:     '#074D40'

@@ -23,15 +23,14 @@ call plug#begin('~/.vim/plugged')
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'                            " Fuzzy search
     Plug 'voldikss/vim-floaterm'                       " Open floating terminal
-"{{ Tim Pope Plugins }}
     Plug 'tpope/vim-surround'                          " Change surrounding marks
     Plug 'tpope/vim-fugitive'                          " Git Support
     Plug 'tommcdo/vim-fugitive-blame-ext'              " Git Support
+    Plug 'mileszs/ack.vim'
 "{{ Syntax Highlighting and Colors }}
     Plug 'PotatoesMaster/i3-vim-syntax'                " i3 config highlighting
     Plug 'kovetskiy/sxhkd-vim'                         " sxhkd highlighting
     Plug 'vim-python/python-syntax'                    " Python highlighting
-
     Plug 'ap/vim-css-color'                            " Color previews for CSS
     Plug 'pangloss/vim-javascript'
     Plug 'joshdick/onedark.vim'
@@ -51,11 +50,13 @@ call plug#begin('~/.vim/plugged')
     Plug 'ncm2/ncm2-path'                               " filepath completion
     Plug 'kien/ctrlp.vim'                               " fuzzy search files
     Plug 'tweekmonster/impsort.vim'                     " color and sort imports
-    Plug 'wsdjeg/FlyGrep.vim'                           " awesome grep on the fly
     Plug 'w0rp/ale'                         " python linters
     Plug 'jmcantrell/vim-virtualenv'
 
 call plug#end()
+
+let g:python3_host_prog = '/home/blade/.pyenv/versions/tryton/bin/python'
+let g:python_host_prog = '/usr/bin/python'
 
 source ~/.config/nvim/settings.vim
 source ~/.config/nvim/mappings.vim

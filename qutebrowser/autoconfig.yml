@@ -31,6 +31,7 @@ settings:
     https://app.slack.com: true
     https://siim.emac.gob.ec:8000: true
     https://web.whatsapp.com: true
+    https://www.reddit.com: true
   content.webgl:
     global: false
   spellcheck.languages:

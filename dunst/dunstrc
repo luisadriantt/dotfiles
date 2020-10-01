@@ -29,6 +29,7 @@
     stack_duplicates = true
     hide_duplicate_count = true
     show_indicators = no
+    ignore_dbusclose = false
 
     ### Icons ###
     icon_position = left
@@ -43,23 +44,42 @@
     class = Dunst
     startup_notification = false
 
+[shortcuts]
+
+    # Shortcuts are specified as [modifier+][modifier+]...key
+    # Available modifiers are "ctrl", "mod1" (the alt-key), "mod2",
+    # "mod3" and "mod4" (windows-key).
+    # Xev might be helpful to find names for keys.
+
+    # Close notification.
+    close = ctrl+space
+
+    # Close all notifications.
+    close_all = ctrl+shift+space
+
+    # Redisplay last message(s).
+    # On the US keyboard layout "grave" is normally above TAB and left
+    # of "1". Make sure this key actually exists on your keyboard layout,
+    # e.g. check output of 'xmodmap -pke'
+    history = ctrl+grave
+
+    # Context menu.
+    context = ctrl+shift+period
+
 [experimental]
     per_monitor_dpi = 96
 
 [urgency_low]
     background = "#0F1112"
     foreground = "#9D9E9F"
-    timeout = 4
-    icon = /home/jesprr/.config/art.png
+    timeout = 3
 
 [urgency_normal]
     background = "#0F1112"
     foreground = "#9D9E9F"
-    timeout = 4
-    icon = /home/jesprr/.config/art.png
+    timeout = 3
 
 [urgency_critical]
     background = "#0F1112"
     foreground = "#9D9E9F"
-    timeout = 4
-    icon = /home/jesprr/.config/art.png
+    timeout = 3

@@ -4,10 +4,14 @@ Global color settings for Rofi
 
 * {
 /*colors*/
-  background:		#222222;
-  foreground-light:	#555555;
-  foreground:		#dfdfdf;
-  red:			#71504e;
+    selected-active-background: #4F374A;
+    selected-active-foreground: @foreground;
+    selected-normal-background: #085349;
+    selected-normal-foreground: @foreground;
+    background:		#222222;
+    foreground-light:	#555555;
+    foreground:		#dfdfdf;
+    red:			#71504e;
 }
 
 * {
